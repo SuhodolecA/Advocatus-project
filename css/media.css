@@ -1,0 +1,531 @@
+@media (max-width: 1620px) {
+    /* Header */
+    .header {
+        padding: 35px 12.7% 30px;
+    }
+}
+
+@media (max-width: 1320px) {
+    /* Header */
+    .header {
+        padding: 35px 7.7% 30px;
+    }
+
+    /* Nav */
+    .nav__link {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 1120px) {
+    /* Header */
+    .header {
+        padding: 35px 4.7% 30px;
+    }
+
+    .header__logo {
+        font-size: 23px;
+    }
+
+    /* Nav */
+    .nav__link {
+        margin-right: 10px;
+    }
+
+    .nav__link a {
+        font-size: 13px;
+    }
+
+    /* Intro */
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .intro__text  {
+        font-size: 28px;
+    }
+
+    .intro__content::before {
+        height: 65px;
+    }
+
+    .default_btn {
+        font-size: 14px;
+    }
+
+    /* About */
+    .section  {
+        padding: 85px 0px;
+    }
+
+    .section__header {
+        margin-bottom: 60px;
+    }
+
+    .section__number  {
+        font-size: 180px;
+    }
+
+    .section__title {
+        font-size: 27px;
+    }
+
+    .section__text {
+        font-size: 18px;
+    }
+
+    /* History */
+    .history__date {
+        font-size: 19px;
+    }
+
+    .history__text {
+        font-size: 14px;
+    }
+
+    /* Expertise */
+    .expertise__text {
+        font-size: 13px;
+    }
+
+    /* Lawyers */
+
+    .lawyers__img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 940px) {
+    /* Header */
+    .header__logo {
+        font-size: 22px;
+    }
+
+    .header {
+        padding: 35px 1.7% 30px;
+    }   
+
+    /* Nav */
+    .nav__link {
+        margin-right: 5px;
+    }
+
+    .nav__link a {
+        font-size: 12px;
+    }
+
+    /* About */
+    .section__number {
+        font-size: 160px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .section__text {
+        font-size: 16px;
+    }
+
+    .section__header::before {
+        top: 5px;
+        height: 95px;
+    }
+
+    /* History */
+    .history__item {
+        margin-bottom: 25px;
+    }
+
+    .history__date {
+        font-size: 15px;
+    }
+
+    .history__text {
+        font-size: 13px;
+    }
+
+    /* Expertise */
+    .expertise__text {
+        line-height: 1.9;
+    }
+
+    /* Practice */
+    .practice_area-inner {
+        margin-left: 0;
+    }
+
+    .practice_area-icon {
+        font-size: 40px;
+    }
+
+    .practice_area-title {
+        font-size: 19px;
+    }
+
+    .practice_area-text {
+        font-size: 13px;
+    }
+
+    /* Slider */
+    .slider__text {
+        line-height: 2;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .slider__author {
+        font-size: 19px;
+    }
+
+    .slider__company {
+        font-size: 12px;
+    }
+
+    .slick-slide img {
+        max-width: 300px;
+        max-height: 235px;
+        transform: translate(-15px, -15px);
+    }
+
+    .slick-dots li {
+        padding: 0;
+    }
+
+    .slider .slick-dots li.slick-active button {
+        width: 13px;
+        height: 13px;
+    }
+
+    /* Publications */
+    .publications__title {
+        font-size: 18px;
+    }
+
+    .publications__header {
+        margin-bottom: 15px;
+    }
+
+    .publications_author,
+    .publications__date {
+        font-size: 14px;
+    }
+
+    .publication__text {
+        font-size: 13px;
+        line-height: 2;
+        margin: 20px 0;
+    }
+
+    .publications__stat-comment, 
+    .publications__stat-share {
+        font-size: 14px;
+    }
+
+    /* Questions */
+    .tablinks {
+        font-size: 13px;
+        text-indent: none;
+    }
+
+    .tabcontent__item {
+        line-height: 2;
+    }
+
+    .question__content {
+        padding: 30px 25px;
+    }
+
+    /* Contacts */
+    .contacts {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 820px) {
+    /* Header */
+    .header {
+        padding: 10px 1.7% 10px;
+    }
+    .header__inner {
+        display: block;
+    }
+
+    /* Hamburger button */
+    .hamburger__btn {
+        display: block;
+    }
+
+    /* Nav */
+    .nav {
+        display: none;
+    }
+
+    .nav ul {
+        display: block;
+    }
+
+    .nav__link {
+        border-bottom: 3px solid transparent;
+        margin-right: 0px;
+    }
+
+    .nav__link a {
+        display: block;
+        line-height: 2;
+        padding: 0;
+    }
+
+    /* Intro */
+    .default_btn {
+        padding: 15px 35px;
+    }
+
+    /* Section */
+    .section {
+        padding: 70px 0px;
+    }
+
+    /* History */
+    .history {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .history__item {
+        margin-bottom: 20px;
+    }
+
+    .history__date {
+        width: 10%;
+    }
+
+    .history__text {
+        max-width: none;
+        width: 90%;
+    }
+
+    .history__title,
+    .expertise__title {
+        margin-bottom: 15px;
+    }
+
+    /* Expertise */
+    .expertise {
+        max-width: 100%;
+    }
+
+    /* Practice */
+    .practice_area-inner {
+        display: block;
+    }
+
+    .practice_area-item {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .practice_area-title {
+        margin-bottom: 10px;
+    }
+
+    .practice_area-text {
+        max-width: 100%;
+    }
+
+    /* Lawyers */
+    .lawyers__item {
+        width: 49%;
+        margin: 0 auto 5px;
+    }
+
+    .lawyers__inner {
+        max-width: 620px;
+    }
+
+    .lawyers__img {
+        margin-bottom: 10px;
+    }
+
+    /* Slider */
+    .slider__avatar {
+        margin-right: 15px;
+    }
+
+    .slick-slide img {
+        max-width: 220px;
+    }
+
+    .slider__review {
+        padding-left: 35px;
+    }
+
+    .slider__review i {
+        font-size: 20px;
+    }
+
+    .slider__text {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    /* Publications */
+    .publications {
+        display: block;
+    }
+
+    .publications__item {
+        max-width: 75%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .publications__img {
+        display: block;
+        width: 100%; 
+    }
+
+    /* Questions */
+    .questions {
+        display: block;
+    }
+
+    .question__tabs {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .question__content {
+        max-width: 100%;
+    }
+
+    /* Contacts */
+    .contact__form {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .contact__map {
+        max-width: 100%;
+        min-height: 250px;
+    }
+    
+}
+
+@media (max-width: 560px) {
+    /* Intro */
+    .intro__title {
+        font-size: 35px;
+    }
+
+    .intro__text {
+        font-size: 25px;
+    }
+
+    .default_btn {
+        padding: 13px 27px;
+        font-size: 12px;
+    }
+
+    /* Section */
+    .section__title {
+        font-size: 22px;
+    }
+
+    .section__text {
+        font-size: 14px;
+    }
+
+    .section__number {
+        font-size: 150px;
+    }
+
+    /* Lawyers */ 
+    .lawyers__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lawyers__img {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .lawyers__img:hover {
+        transform: scale(1.02);
+    }
+
+    /* Clients */
+    .slick-initialized .slick-slide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slick-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Publications */
+    .publications__item {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:510px) {
+    /* History */
+    .history__text {
+        width: 80%;
+    }
+
+    .history__date {
+        width: 17%;
+    }
+}
+
+@media (max-width:460px) {
+   /* Intro */
+   .intro__inner {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   .intro__content {
+       margin-bottom: 20px;
+   }
+   /* Questions */
+   .tablinks {
+       line-height: 2;
+       letter-spacing: 0;
+       text-indent: 0;
+   }
+
+   .tabcontent__item {
+       font-size: 12px;
+   }
+
+   /* Contacts */
+   .contact__map {
+       min-height: 200px;
+   }
+
+   /* Footer */
+   .playfair {
+       font-size: 14px;
+   }
+
+   .lato {
+       font-size: 14px;
+   }
+
+   .open-sans {
+       font-size: 14px;
+   }
+
+   .footer a {
+       font-size: 14px;
+       margin-left: 10px;
+   }
+}
+
