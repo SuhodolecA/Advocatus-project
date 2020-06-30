@@ -9,3 +9,4 @@ Used technologies:
 - jQuer slick slider
 - Flexbox
 
+[Link to the page](https://suhodoleca.github.io/Advocatus-project/)
